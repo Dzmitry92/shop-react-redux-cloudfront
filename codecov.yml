@@ -1,3 +1,6 @@
+comment:
+  layout: "coverage"
+  behavior: default
 coverage:
   status:
     project:
