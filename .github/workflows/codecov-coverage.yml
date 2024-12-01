@@ -20,7 +20,7 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        run: CI=true react-scripts test --coverage
+        run: CI=true npx react-scripts test --coverage
 
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
